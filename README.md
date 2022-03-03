@@ -1,4 +1,4 @@
-#### Connect 4 ![alte text](https://github.com/Thanasis-Traitsis/Connect_4/blob/main/img/icon2.png)
+# Connect 4 ![alte text](https://github.com/Thanasis-Traitsis/Connect_4/blob/main/img/icon2.png)
 This is the first project that I have worked on as a student. Connect Four is a two-player connection board game, in which the players choose a color ![alte text](https://github.com/Thanasis-Traitsis/Connect_4/blob/main/img/RP2.png) or ![alte text](https://github.com/Thanasis-Traitsis/Connect_4/blob/main/img/YP2.png) and then take turns dropping colored tokens into a 7-column, 6-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens
 
 ![alte text](https://github.com/Thanasis-Traitsis/Connect_4/blob/main/img/connect_4.png)
@@ -8,7 +8,7 @@ This is the first project that I have worked on as a student. Connect Four is a 
 You need to open the website on 2 different devices. Both of the players should write their usernames, choose a different color and then press the START/RESET button. The player who chose the Red color is the one that plays first. After the game begins, a text field appears, in which the player with the Red pawns writes a number between 1-7 to place the pawn in this specific column. Then, the text field disappears and reappears on the screen of the Yellow player.
 After the game settles off, the players can click the START/RESET button to face each other again.
 
-### Unfortunately this site is no longer available, because the server of the University deletes the old projects to make room for the next ones. But I hope you get a pretty good idea of the project by reading my description and by exploring the code.
+## Unfortunately this site is no longer available, because the server of the University deletes the old projects to make room for the next ones. But I hope you get a pretty good idea of the project by reading my description and by exploring the code.
 
 ## Entities
 
