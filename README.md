@@ -8,7 +8,7 @@ This is the first project that I have worked on as a student. Connect Four is a 
 You need to open the website on 2 different devices. Both of the players should write their usernames, choose a different color and then press the START/RESET button. The player who chose the Red color is the one that plays first. After the game begins, a text field appears, in which the player with the Red pawns writes a number between 1-7 to place the pawn in this specific column. Then, the text field disappears and reappears on the screen of the Yellow player.
 After the game settles off, the players can click the START/RESET button to face each other again.
 
-## Unfortunately this site is no longer available, because the server of the University deletes the old projects to make room for the next ones. But I hope you get a pretty good idea of the project by reading my description and by exploring the code.
+#### Unfortunately this site is no longer available, because the server of the University deletes the old projects to make room for the next ones. But I hope you get a pretty good idea of the project by reading my description and by exploring the code.
 
 ## Entities
 
