@@ -3,6 +3,11 @@ This is the first project that I have worked on as a student. Connect Four is a 
 
 ![alte text](https://github.com/Thanasis-Traitsis/Connect_4/blob/main/img/connect_4.png)
 
+## How to play
+
+You need to open the website on 2 different devices. Both of the players should write their usernames, choose a different color and then press the START/RESET button. The player who chose the Red color is the one that plays first. After the game begins, a text field appears, in which the player with the Red pawns writes a number between 1-7 to place the pawn in this specific column. Then, the text field disappears and reappears on the screen of the Yellow player.
+After the game settles off, the player that connected 4 pawns in a horizontal, vertical, or diagonal line gets the "winner's screen" on his device.
+
 ## Entities
 
 
