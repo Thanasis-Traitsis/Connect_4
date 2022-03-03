@@ -9,40 +9,40 @@ This is the first project that I have worked on as a student. Connect Four is a 
 ### Board
 ---------
 
-Το board είναι ένας πίνακας, ο οποίος στο κάθε στοιχείο έχει τα παρακάτω:
+The board is a table, in which each element has the following:
 
 
 | Attribute                | Description                                  | Values                              |
 | ------------------------ | -------------------------------------------- | ----------------------------------- |
-| `x`                      | coordinate x                                 | 1..7                                |
-| `y`                      | coordinate y                                 | 1..6                                |
+| `x`                      | Coordinate x                                 | 1..7                                |
+| `y`                      | Coordinate y                                 | 1..6                                |
 | `piece_color`            | The color of the pawn                        | 'R','Y', null                       |
 | `piece`                  | The pawn that exists                         | 'P', null                           |
-| `moves`                  | A table with the available cordinates (x,y) that the pawn can move |   |
+| `moves`                  | A table with the available coordinates (x,y) that the pawn can move |   |
 
 
 ### Players
 ---------
 
-O κάθε παίκτης έχει τα παρακάτω στοιχεία:
+Every player has the following attributes:
 
 
 | Attribute                | Description                                  | Values                              |
 | ------------------------ | -------------------------------------------- | ----------------------------------- |
-| `username`               | Όνομα παίκτη                                 | String                              |
-| `piece_color`            | To χρώμα που παίζει ο παίκτης                | 'R','Y'                             |
-| `token  `                | To κρυφό token του παίκτη. Επιστρέφεται μόνο τη στιγμή της εισόδου του παίκτη στο παιχνίδι | HEX |
+| `username`               | The name of the player                               | String                              |
+| `piece_color`            | The color of the pawn               | 'R','Y'                             |
+| `token  `                | A random generated number for a player, everytime the game starts | HEX |
 
 
 ### Game_status
 ---------
 
-H κατάσταση παιχνιδιού έχει τα παρακάτω στοιχεία:
+The status of the game should have the following attributes:
 
 
 | Attribute                | Description                                  | Values                              |
 | ------------------------ | -------------------------------------------- | ----------------------------------- |
-| `status  `               | Κατάσταση             | 'not active', 'initialized', 'started', 'ended', 'aborded'     |
-| `p_turn`                 | To χρώμα του παίκτη που παίζει        | 'R','Y',null                              |
-| `result`                 | To χρώμα του παίκτη που κέρδισε |'R','Y',null                              |
-| `last_change`            | Τελευταία αλλαγή/ενέργεια στην κατάσταση του παιχνιδιού         | timestamp |
+| `status  `               | current status of the game            | 'not active', 'initialized', 'started', 'ended', 'aborded'     |
+| `p_turn`                 | The color of the player that makes the next move      | 'R','Y',null                              |
+| `result`                 | The color of the player that won |'R','Y',null                              |
+| `last_change`            | Last change / action in game mode        | timestamp |
