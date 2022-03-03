@@ -14,11 +14,11 @@ This is the first project that I have worked on as a student. Connect Four is a 
 
 | Attribute                | Description                                  | Values                              |
 | ------------------------ | -------------------------------------------- | ----------------------------------- |
-| `x`                      | H συντεταγμένη x                             | 1..7                                |
-| `y`                      | H συντεταγμένη y                             | 1..6                                |
-| `piece_color`            | To χρώμα του πιονιού                         | 'R','Y', null                       |
-| `piece`                  | Το πιόνι που υπάρχει                         | 'P', null                           |
-| `moves`                  | Πίνακας με τα δυνατά τετράγωνα (x,y) που μπορεί να μετακινηθεί το πιόνι. Αν δεν υπάρχει πιόνι, ή δεν έχει κάνει login ο χρήστης, ή δεν έχει ξεκινήσει το παιχνίδι ή αν δεν υπάρχουν κινήσεις, τότε το πεδίο δεν υπάρχει. |   |
+| `x`                      | coordinate x                                 | 1..7                                |
+| `y`                      | coordinate y                                 | 1..6                                |
+| `piece_color`            | The color of the pawn                        | 'R','Y', null                       |
+| `piece`                  | The pawn that exists                         | 'P', null                           |
+| `moves`                  | A table with the available cordinates (x,y) that the pawn can move |   |
 
 
 ### Players
